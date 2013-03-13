@@ -1,0 +1,74 @@
+body{
+
+	background-color:#003366;
+
+
+
+}
+
+div.attributes {
+	
+	min-height: 100px;
+	max-height: 500px;
+	min-width: 100px;
+	max-width:	500px;
+	border: 2px solid black;
+	opacity:0.6;
+	border-radius: 5px;
+	display:inline-block; 
+	background-color: #cce6e6;
+	box-shadow: 6px 8px 5px #579;
+	-moz-box-shadow: 6px 8px 5px #579;
+	webkit-box-shadow: 6px 8px 5px #579;
+	ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000')";
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000');
+	
+}
+
+Img.displayed{
+
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top:100px;
+	margin-bottom:auto;
+	width:75%; /* you can use % */
+    height: 25%;
+	
+}
+
+table.center {
+	margin-top:auto;
+    margin-left:auto; 
+    margin-right:auto;
+	margin-bottom:auto;
+  }
+
+
+
+	
+
+
+
+#one {
+	
+	margin-left: 10px;
+    margin-right: 10px;
+}
+
+#two {
+	margin-left: 10px;
+    margin-right: 10px;
+}
+
+#three {
+	margin-left: 10px;
+    margin-right: 10px;
+	
+}
+
+#four {
+	margin-left: 10px;
+    margin-right: 10px;
+	
+}
