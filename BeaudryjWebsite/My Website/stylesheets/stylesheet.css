@@ -1,6 +1,6 @@
 body{
 
-	background-color:#003366;
+	
 
 
 
@@ -11,6 +11,24 @@ a {
 text-decoration:none;
 
 }
+
+.container{
+	
+	background-clip: content-box;
+	background-image:url(../images/me/me.JPG);
+	width:1020px;
+	height:1020px;
+	margin:auto;
+	background-position:top center;
+	background-repeat: no-repeat;
+	padding-left: 1px;
+    padding-top: 1px;
+	padding-right: 1px;
+	padding-bottom: 1px; 
+	
+}
+
+
 
 div.attributes {
 	
@@ -34,17 +52,19 @@ div.attributes {
 	font-size:250%;
 }
 
-Img.displayed{
+
+.displayed{
 
 	display: block;
     margin-left: auto;
     margin-right: auto;
-	margin-top:100px;
+	margin-top:300px;
 	margin-bottom:auto;
-	width:75%; /* you can use % */
+	width:75%;  /*you can use % */
     height: 25%;
 	
 }
+
 
 table.center {
 	margin-top:auto;
@@ -109,5 +129,24 @@ table.center {
     margin-right:auto;
 	margin-bottom:auto;
 
+}
+
+.footer{
+	width:1020px;
+	height:75px;
+	background-color:#4d4d4d;
+	font-family: arial;
+	font-size: 20px;
+	color:white;
+	margin:320px auto auto auto;
+	padding: 5px 0px 10px 0px;
+	
+}
+
+
+#banner
+{
+	float:right;
+	margin-right:25px;	
 }
 
